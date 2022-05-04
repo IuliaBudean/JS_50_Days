@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bg {
+    height: 100vh;
+    width: 100vw;
+    background: url('./images/pexels-eberhard-grossgasteiger-1367192.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(30px);
+}
+
+.loading-text {
+    z-index: 100;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+}
